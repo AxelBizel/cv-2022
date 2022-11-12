@@ -1,0 +1,17 @@
+#Navbar {
+  .navbar-bg {
+    background: $bg_light;
+    min-height: 8vh;
+  }
+
+  .navbar-brand{
+    margin-left: 2vw;
+  }
+  .nav-link {
+    font-family: Roboto Mono,monospace;;
+    @media (max-width: 600px) {
+      text-align: center !important;
+      margin: 1.5vh 0;
+    }
+  }
+}

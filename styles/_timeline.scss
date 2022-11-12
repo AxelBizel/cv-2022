@@ -1,0 +1,27 @@
+.vertical-timeline {
+  width: 100% !important;
+  li {
+    font-size: 0.85rem;
+    list-style-type: disc;
+    // margin: 0 0 0 1.5vw;
+  }
+}
+
+.vertical-timeline-element-content {
+  background-color: #ffffff1d !important;
+  box-shadow: 0 0px !important;
+  border: 2px solid #ffffff;
+}
+
+.vertical-timeline-element-content-arrow {
+  border-right: 10px solid #ffffff !important ;
+}
+
+.vertical-timeline::before {
+  width: 2px !important;
+}
+
+.vertical-timeline-element-icon {
+  box-shadow: 0 0 0 2px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05) !important;
+}
