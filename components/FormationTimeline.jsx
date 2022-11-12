@@ -25,7 +25,7 @@ const formationCard = (f, i) => {
   );
 };
 
-const FormationTimeline = ({ data, isMobile }): any => {
+const FormationTimeline = ({ data, isMobile }) => {
   return (
     <Container>
       <div data-aos="zoom-in">

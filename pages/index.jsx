@@ -6,18 +6,17 @@ import Footer from "../components/Footer";
 import ExperienceTimeline from "../components/ExperienceTimeline";
 import Projets from "../components/Projets";
 import FormationTimeline from "../components/FormationTimeline";
-import { NextPage } from "next";
 import { fetchData } from "../pages/api/fetchData";
 import Head from "next/head";
 
-const Home: NextPage = ({
+const Home = ({
   headerData,
   xpData,
   projectsData,
   formationData,
   stackData,
-}: any) => {
-  const [isMobile, setIsMobile] = useState<boolean>();
+}) => {
+  const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
     if (window.matchMedia("(max-width: 600px)").matches) {
       setIsMobile(true);

@@ -8,7 +8,7 @@ import {
   faToolbox,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Projets = ({ data, isMobile }): any => {
+const Projets = ({ data, isMobile }) => {
   return (
     <Container>
       <div data-aos="zoom-in">
