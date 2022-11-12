@@ -30,7 +30,7 @@ const Projets = ({ data, isMobile }) => {
             >
               <Card body className="projectCard">
                 <a href={p[4]} target="_blank" rel="noopener noreferrer">
-                  <Card.Img width="100%" src={p[6]} alt={p[0]} />
+                  <Card.Img width="100%" height="100%" src={p[6]} alt={p[0]} />
                 </a>
                 <Card.Body className="p-0">
                   <Card.Title
